@@ -722,11 +722,9 @@ p {
     margin-bottom: 10px;
     display: grid;
 }
-
 .modal__item--area{
     margin-bottom: 20px;
 }
-
 .modal__label{
     display: inline-block;
     color: var(--primaty-text-color);
@@ -735,11 +733,9 @@ p {
     letter-spacing: 0.01em;
     margin-bottom: 4px;
 }
-
 .modal__input-group{
     position: relative;
 }
-
 .modal__input{
     height: 40px;
     width: 100%;
@@ -749,17 +745,14 @@ p {
     padding-left: 42px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal__input:hover,
 .modal__input:focus {
     border: 1px solid var(--accent-color);
 }
-
 .modal__input:hover + .modal__icon,
 .modal__input:focus + .modal__icon{
     fill: var(--accent-color);
 }
-
 .modal__textarea{
     height: 120px;
     width: 100%;
@@ -769,13 +762,10 @@ p {
     padding: 12px 16px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal__textarea:hover,
 .modal__textarea:focus {
     border: 1px solid var(--accent-color);
 }
-
-
 .modal__textarea::placeholder{
     color: rgba(117, 117, 117, 0.5);
 }
@@ -814,13 +804,11 @@ p {
     display: flex;
     align-items: center;
 }
-
 .modal__checkbox-link{
     text-decoration: underline;
     margin-left: 4px;
     color: var(--accent-color);
 }
-
 .button--modal{
 	padding: 0 52px;
 	margin-left: auto;
@@ -828,8 +816,7 @@ p {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.button-—modal:hover, 
-.button-—modal:focus {
+.button--modal:hover, 
+.button--modal:focus {
     background-color: var(--button-active-blue);
 }
