@@ -94,7 +94,7 @@ p {
     margin-left: 93px;
 }
 
-.nav .nav__item + .nav__item {
+.nav__item + .nav__item {
     margin-left: 50px;
 }
 
@@ -141,19 +141,19 @@ p {
     margin-left: auto;
 }
 
-.auth-nav .item{
+.auth-nav__item{
     display: flex;
     align-items: center;
 }
 
-.mail-icon{
+.auth-nav__icon-mail{
     margin-right: 10px;
     fill: currentColor;
     width: 16px;
     height: 12px;
 }
 
-.tel-icon{
+.auth-nav__icon-tel{
     margin-right: 10px;
     fill: currentColor;
     width: 10px;
@@ -162,19 +162,19 @@ p {
 
 
 
-.auth-nav .item + .item {
+.auth-nav__item + .auth-nav__item {
     margin-left: 50px;
 }
 
-.auth-nav .link {
+.auth-nav__link {
     color: var(--primaty-text-color);
     display:flex;
     align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.auth-nav__link:hover,
+.auth-nav__link:focus {
     color: var(--accent-color);
 }
 
