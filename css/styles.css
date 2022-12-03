@@ -502,6 +502,7 @@ p {
 
 .button--filter {
     padding: 6px 22px;
+    height: 38px;
     color: var(--title-text-color);
     background-color: var(--team-color-bg);
     font-weight: 500;
