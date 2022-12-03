@@ -500,30 +500,20 @@ p {
     margin-left: 8px;
 }
 
-.buttons .button {
+.button--filter {
     padding: 6px 22px;
-
-    border-radius: 4px;
-    border: 1px solid transparent;
     color: var(--title-text-color);
     background-color: var(--team-color-bg);
- 
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.03em;
-    font-family:inherit;
-
-    cursor: pointer;
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.buttons .button:hover,
-.buttons .button:focus {
+.button--filter:hover,
+.button--filter:focus {
     color: var(--text-white-color);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
