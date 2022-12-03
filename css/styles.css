@@ -561,69 +561,41 @@ p {
     background-color: var(--bg-color);
     padding: 60px 0;
 }
-
-.footer-container{
+.footer__container{
     display: flex;
     align-items: baseline;
 }
-
-.addres-group{
-    margin-right: 70px;
-}
-
-.logo—footer{
+.logo--footer{
 	margin-bottom: 20px;
 	color: var(--text-white-color);
 }
-
- .footer-address {
+.addres{
+    margin-right: 70px;
+}
+.address__list {
     font-style: normal;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
- }
-
- .address-location, .address-mail {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.address__item{
     margin-top: 0;
     margin-bottom: 9px;
- }
-
- .address-location .link {
+}
+.address__link{
     color: var(--text-white-color);
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
-
- .address-location .link:hover,
- .address-location .link:focus {
-    color: var(--accent-color);
- }
-
- .address-mail .link {
+}
+.address__link--transparet {
     color: var(--address-white-opacity-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
-
- .address-mail .link:hover,
- .address-mail .link:focus {
+}
+.address__link:hover,
+.address__link:focus {
     color: var(--accent-color);
  }
-
-.address-tel {
-    margin-top: 0;
- }
-
- .address-tel .link {
-    color: var(--address-white-opacity-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
-
- .address-tel .link:hover,
- .address-tel .link:focus {
-    color: var(--accent-color);
- }
-
-
 
  .social-discription, .mailing-discription{
     margin-bottom: 20px;
