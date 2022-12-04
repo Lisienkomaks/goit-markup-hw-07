@@ -10,6 +10,16 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -22,16 +32,6 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
 }
 
 .icon {
@@ -610,7 +610,6 @@ p {
 .work {
   padding-bottom: 94px;
 }
-
 .work__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -620,15 +619,12 @@ p {
   margin: 0;
   list-style: none;
 }
-
 .work__group {
   position: relative;
 }
-
 .work__image {
   display: block;
 }
-
 .work__description {
   width: 100%;
   height: 70px;
@@ -656,7 +652,6 @@ p {
   background-color: var(--team-color-bg);
   padding: 94px 0 94px 0;
 }
-
 .team__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -666,7 +661,6 @@ p {
   margin: 0;
   list-style: none;
 }
-
 .team__item {
   background-color: var(--text-white-color);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -686,15 +680,24 @@ p {
   margin: 0;
   list-style: none;
 }
-
 .person__item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
 }
-
 .person__item:last-child {
   margin-right: 0;
+}
+.person__group {
+  padding: 30px 0;
+}
+.person__description {
+  margin-bottom: 16px;
+  color: var(--primaty-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .person__link {
@@ -715,24 +718,9 @@ p {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.person__link:hover,
-.person__link:focus {
+.person__link:hover, .person__link:focus {
   background-color: var(--accent-color);
   color: var(--text-white-color);
-}
-
-.person__group {
-  padding: 30px 0;
-}
-
-.person__description {
-  margin-bottom: 16px;
-  color: var(--primaty-text-color);
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .clients {
