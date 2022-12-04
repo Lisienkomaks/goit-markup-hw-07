@@ -50,9 +50,10 @@
     cursor: pointer;
     color: var(--logo-black-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal__close-sign:hover{
-    color:var(--accent-color)
+
+    &:hover, &:focus{
+        color:var(--accent-color)
+    }
 }
 
 .modal__item{
@@ -99,11 +100,12 @@
     border-radius: 4px;
     padding: 12px 16px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus{
+        border: 1px solid var(--accent-color);
+    }
 }
-.modal__textarea:hover,
-.modal__textarea:focus {
-    border: 1px solid var(--accent-color);
-}
+
 .modal__textarea::placeholder{
     color: rgba(117, 117, 117, 0.5);
 }

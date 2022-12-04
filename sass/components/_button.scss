@@ -27,7 +27,6 @@
     }            
 }
 
-
 .button--filter {
     padding: 6px 22px;
     height: 38px;
@@ -39,6 +38,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     &:hover, &:focus {
         color: var(--text-white-color);
         background-color: var(--accent-color);
@@ -54,6 +54,7 @@
 	margin-right: auto;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     &:hover, &:focus {
         background-color: var(--button-active-blue);
     }

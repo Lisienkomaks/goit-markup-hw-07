@@ -4,15 +4,18 @@
 	line-height: 1.19;
 	letter-spacing: 0.03em;   
 	display: inline-block;
-}
-.logo--header{
-	padding: 24px 0 25px 0;
-	color: var(--logo-black-color);
-}
-.logo-accent {
-    color: var(--accent-color);
-}
-.logo--footer{
-	margin-bottom: 20px;
-	color: var(--text-white-color);
+
+    &-accent{
+        color: var(--accent-color);
+    }
+
+    &--header{
+        padding: 24px 0 25px 0;
+        color: var(--logo-black-color);
+    }
+
+    &--footer{
+        margin-bottom: 20px;
+        color: var(--text-white-color);
+    }
 }

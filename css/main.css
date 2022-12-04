@@ -142,16 +142,13 @@ p {
   letter-spacing: 0.03em;
   display: inline-block;
 }
-
+.logo-accent {
+  color: var(--accent-color);
+}
 .logo--header {
   padding: 24px 0 25px 0;
   color: var(--logo-black-color);
 }
-
-.logo-accent {
-  color: var(--accent-color);
-}
-
 .logo--footer {
   margin-bottom: 20px;
   color: var(--text-white-color);
@@ -296,8 +293,7 @@ p {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal__close-sign:hover {
+.modal__close-sign:hover, .modal__close-sign:focus {
   color: var(--accent-color);
 }
 
@@ -354,9 +350,7 @@ p {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal__textarea:hover,
-.modal__textarea:focus {
+.modal__textarea:hover, .modal__textarea:focus {
   border: 1px solid var(--accent-color);
 }
 
