@@ -1,11 +1,4 @@
 @charset "UTF-8";
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  background-color: var(--text-white-color);
-  color: var(--primaty-text-color);
-}
-
 a {
   text-decoration: none;
 }
@@ -51,6 +44,13 @@ p {
   --header-border-line:#ECECEC;
   --border-portfolio-color:#EEEEEE;
   --icon-color:#AFB1B8;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: var(--text-white-color);
+  color: var(--primaty-text-color);
 }
 
 .button {
