@@ -1,0 +1,30 @@
+.features {
+    padding: 94px 0 94px 0;
+}
+.features__list{ 
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.features__item{
+    width: 270px;
+}
+.features__icon-group{
+    height: 120px;
+    width: 270px;
+    border-radius: 4px;
+    background-color: var(--team-color-bg);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features__description{
+    margin-top: 0;
+    color: var(--primaty-text-color);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
