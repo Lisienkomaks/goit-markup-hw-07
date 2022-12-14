@@ -1,24 +1,47 @@
 .features {
-    padding: 94px 0 94px 0;
+    padding: 60px 0 60px 0;
     &__list{ 
-        display: flex;
-        gap: 30px;
         padding: 0;
         margin: 0;
         list-style: none;
+
+        @media screen and (min-width: 768px){
+            display: flex;
+            gap: 30px;
+        }
     }
     &__item{
-        width: 270px;
+        width: 450px;
+        margin-bottom: 30px;
+        @media screen and (min-width: 768px) {
+            width: 354px;
+        }
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+            margin-bottom: 0px;
+        }
+    }
+    &__item:last-child{
+        @media screen and (min-width: 480px) {
+            margin-bottom: 0px;
+        }
     }
     &__icon-group{
         height: 120px;
-        width: 270px;
+        width: 450px;
         border-radius: 4px;
         background-color: var(--team-color-bg);
         margin-bottom: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media screen and (min-width: 768px) {
+            width: 354px;
+        }
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+        }
     }
     &__description{
         margin-top: 0;
@@ -26,4 +49,9 @@
         line-height: 1.71;
         letter-spacing: 0.03em;
     }
+    @media screen and (min-width: 1200px) {
+        padding: 94px 0 94px 0;
+    }
+
 }
+
