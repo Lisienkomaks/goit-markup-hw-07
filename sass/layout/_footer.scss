@@ -6,7 +6,9 @@
         align-items: baseline;
 
         @media screen and (min-width: 768px) {
-            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
         @media screen and (min-width: 1200px) {
@@ -27,18 +29,24 @@
         list-style: none;
     }
     @media screen and (min-width: 768px) {
-        margin-right: 70px;    
+        margin-right: 165px;    
     }
 
     @media screen and (min-width: 1200px) {
         margin-bottom: 0px; 
+        margin-right: 70px;
     }
 }
 .address__item{
     margin-top: 0;
     margin-bottom: 9px;
+    text-align: center;
     &:last-child{
         margin-bottom: 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+        text-align: start;
     }
 }
 .address__link{
@@ -131,5 +139,8 @@
             width: 358px;
             margin-bottom: 0px;
         }
+    }
+    @media screen and (min-width: 768px) {
+        margin-right: auto;   
     }
 }
