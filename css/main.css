@@ -720,6 +720,7 @@ body {
 .team {
   background-color: var(--team-color-bg);
   padding: 60px 0 60px 0;
+  min-width: 480px;
 }
 .team__list {
   padding: 0;
