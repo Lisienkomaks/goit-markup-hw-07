@@ -1204,6 +1204,14 @@ body {
     padding: 94px 0;
   }
 }
+.filters__item:nth-child(3) {
+  margin-right: 19px;
+}
+@media screen and (min-width: 768px) {
+  .filters__item:nth-child(3) {
+    margin-right: 0;
+  }
+}
 
 .portfolio__item {
   width: 450px;
