@@ -17,5 +17,15 @@
     &--footer{
         margin-bottom: 20px;
         color: var(--text-white-color);
+
+        @media screen and (max-width: 1199px) {
+            display: block;
+            text-align: center;
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: inline-block;
+            
+        }
     }
 }
