@@ -524,13 +524,22 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding: 0;
-  margin: 0 0 0 93px;
   list-style: none;
   font-weight: 500;
   line-height: 1.19;
 }
 .nav__item + .nav__item {
   margin-left: 50px;
+}
+@media screen and (min-width: 768px) {
+  .nav {
+    margin: 0 0 0 87px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav {
+    margin: 0 0 0 93px;
+  }
 }
 
 .nav__link {
@@ -578,8 +587,26 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.auth-nav__item + .auth-nav__item {
-  margin-left: 50px;
+@media screen and (min-width: 768px) {
+  .auth-nav__item {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .auth-nav__item {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .auth-nav__item + .auth-nav__item {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .auth-nav__item + .auth-nav__item {
+    margin-left: 50px;
+  }
 }
 .auth-nav__icon-mail {
   margin-right: 10px;
@@ -592,6 +619,28 @@ body {
   fill: currentColor;
   width: 10px;
   height: 16px;
+}
+@media screen and (min-width: 768px) {
+  .auth-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .auth-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 .auth-nav__link {

@@ -15,12 +15,17 @@
 .nav {
     display: flex;
     padding: 0;
-    margin: 0 0 0 93px;
     list-style: none;
     font-weight: 500;
     line-height: 1.19;
     &__item + &__item{
         margin-left: 50px;
+    }
+    @media screen and (min-width: 768px){
+        margin: 0 0 0 87px;
+    }
+    @media screen and (min-width: 1200px){
+        margin: 0 0 0 93px;
     }
 }
 
@@ -59,9 +64,24 @@
     &__item{
         display: flex;
         align-items: center;
+
+        @media screen and (min-width: 768px){
+            margin-bottom: 10px; 
+        }
+        @media screen and (min-width: 1200px){
+            margin-bottom: 0px;
+        }
     }
     &__item + &__item{
-        margin-left: 50px;
+        @media screen and (min-width: 768px){
+            margin-left: 0px;
+            margin-bottom: 0px;
+            
+        }
+        @media screen and (min-width: 1200px){
+            margin-left: 50px;
+        }
+
     }
     &__icon-mail{
         margin-right: 10px;
@@ -74,6 +94,16 @@
         fill: currentColor;
         width: 10px;
         height: 16px;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-direction: row;
     }
 }
 
