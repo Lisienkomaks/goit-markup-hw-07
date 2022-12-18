@@ -657,6 +657,16 @@ body {
 .auth-nav__link:hover, .auth-nav__link:focus {
   color: var(--accent-color);
 }
+@media screen and (min-width: 768px) {
+  .auth-nav__link {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .auth-nav__link {
+    font-size: 14px;
+  }
+}
 
 .hero {
   padding: 118px 0;
@@ -928,6 +938,8 @@ body {
 }
 .person__photo {
   width: 450px;
+  display: block;
+  height: auto;
 }
 @media screen and (min-width: 768px) {
   .person__photo {
